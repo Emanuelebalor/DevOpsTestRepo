@@ -1,0 +1,7 @@
+/home/vlad/core_net/DevOpsTestRepo/publish/src
+/home/vlad/core_net/DevOpsTestRepo/publish/appsettings.Development.json
+/home/vlad/core_net/DevOpsTestRepo/publish/appsettings.json
+/home/vlad/core_net/DevOpsTestRepo/publish/src.dll
+/home/vlad/core_net/DevOpsTestRepo/publish/src.deps.json
+/home/vlad/core_net/DevOpsTestRepo/publish/src.runtimeconfig.json
+/home/vlad/core_net/DevOpsTestRepo/publish/src.pdb
