@@ -24,13 +24,13 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore src/src.csproj
 
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build src/src.csproj --no-restore 
 
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test src/src.csproj --no-build --verbosity normal
 
     - name: Publish
       run: dotnet publish src/src.csproj -c Release -o release — nologo
